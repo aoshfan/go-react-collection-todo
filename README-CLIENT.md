@@ -7,6 +7,13 @@ src/App.tsx
 # Flow
 index.html --> main.tsx --> App.tsx (we change code here)
 
+# File that add/change:
+## Change
+* src/App.tsx
+
+## Add
+* src/components/AddTodo.tsx
+
 
 # EXPLAIN
 This code snippet is a React component written in TypeScript, and it uses several libraries including Mantine (a UI library), Octicons (a set of icons from GitHub), and SWR (a React hook library for data fetching). Here's a breakdown of its functionality:
