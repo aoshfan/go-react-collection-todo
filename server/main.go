@@ -21,6 +21,7 @@ func main() {
 
 	app := fiber.New()
 
+	// This is to allow a request from client/React which currently serve at port 3000
 	app.Use(cors.New(cors.Config{
 		AllowOrigins: "http://localhost:3000",
 		AllowHeaders: "Origin, Content-Type, Accept",
