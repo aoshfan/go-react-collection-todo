@@ -14,7 +14,7 @@ export interface Todo {
 export const ENDPOINT = "http://localhost:4000";
 
 const fetcher = (url: string) =>
-  fetch(`${ENDPOINT}/${url}`).then((r) => r.json());
+  fetch(`${ENDPOINT}/${url}`).then((r) => r.json());  // the fetcher function is a utility for making HTTP requests to a specified URL (constructed from a base endpoint and a path) and automatically parsing the response as JSON. 
 
 function App() {
   const { data, mutate } = useSWR<Todo[]>("api/todos", fetcher);

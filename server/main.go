@@ -8,6 +8,7 @@ import (
 	"github.com/gofiber/fiber/v2/middleware/cors"
 )
 
+// Create a Todo type
 type Todo struct {
 	ID    int    `json:"id"`
 	Title string `json:"title"`

@@ -12,3 +12,6 @@
 * How to make a todo UI
 * React with TypeScript
 * Basic Mantine usage
+
+## Reference:
+https://www.youtube.com/watch?v=QevhhM_QfbM
